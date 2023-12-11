@@ -61,8 +61,8 @@ main {
   font-size: 1.5rem;
   line-height: 1.2;
   margin: 0;
-  margin-top: -16px;
-  margin-bottom: 1.5rem;
+  margin-top: -16px; /* This is to offset the 24px padding on the card and create an 8px gap */
+  margin-bottom: 1.5rem; /* Using rem for readability if the user chooses a larger default text size */
   margin-left: -32px;
   padding: 16px 32px;
   width: fit-content;
